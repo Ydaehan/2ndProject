@@ -63,7 +63,7 @@ $array = mysqli_fetch_array($result);
           // focus() => .앞의 요소에 초점을 맞춤 (사용자가 입력할 수 있는 상태가 되도록 커서를 위치)
           nickname.focus();
           return false;
-        };
+        }
       };
     };
 

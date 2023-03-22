@@ -52,6 +52,7 @@ session_start();
           <a href="join.php" class="save">아직 회원이 아니신가요? -> 회원가입 하러가기</a>
         <!-- 로그인 창 -->
       <?php } ?>
+      <br><a href="./freeBoard/freeBoardIndex.php" class="go_free_board">자유게시판</a>
 </form>
     </div>  
   </div>

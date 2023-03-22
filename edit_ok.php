@@ -40,7 +40,6 @@ if(!$pw && $nickname){ // 닉네임이 공백이 아니고 pw 가 비워져 있�
 }
 echo $sql;
 
-
 /* 데이터베이스에 쿼리 전송 */
 mysqli_query($db,$sql);
 $sql = "select nickname from manage_user where user_id = '$user_id'";
